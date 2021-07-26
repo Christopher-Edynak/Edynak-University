@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'shared/_alert'
+  get 'shared/_footer'
+  get 'shared/_header'
+  get 'shared/_nav'
   root 'pages#welcome'
   #get 'pages/welcome'
   #get 'pages/privacy_policy'

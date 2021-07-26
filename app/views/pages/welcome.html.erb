@@ -1,6 +1,15 @@
-<h1>Welcome to Edynak University</h1>
-<h3>Trusted by millions as their preferred online learning platform</h3>
-<h5>Please register an account or sign in to continue</h5>
-<%= link_to "Terms Of Use", terms_of_use_path %>
-<%= link_to "Privacy Policy", privacy_policy_path %>
-<%= link_to "Cookie Policy", cookie_policy_path %>
+<div class="card text-center">
+  <div class="card-header">
+    Welcome to Edynak University
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Trusted by millions as their preferred online learning platform</h5>
+    <p class="card-text">Please register an account or login to continue</p>
+    <a href="#" class="btn btn-warning">Sign Up</a><a href="#" class="btn btn-primary">Login</a>
+  </div>
+  <div class="card-footer text-muted">
+    <%= link_to "Terms Of Use", terms_of_use_path %>
+    <%= link_to "Privacy Policy", privacy_policy_path %>
+    <%= link_to "Cookie Policy", cookie_policy_path %>
+  </div>
+</div>
